@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+
+.parent {
+    gap: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction:row;
+    width: 100vw;
+    height: 100dvh;
+}
+
+#div1 {
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    width: 20%;
+}
+
+#div2 {
+    /*grid-column: span 4 / span 4;*/
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    width: 20%;
+}
+
+#div3 {
+    /*grid-column: span 4 / span 4;*/
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    width: 59%;
+}
+#div4 {
+    /*grid-column: span 4 / span 4;*/
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    width: 1%;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.global::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.global {
+    padding: 1%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  font: 100;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+}
